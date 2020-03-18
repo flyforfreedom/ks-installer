@@ -222,6 +222,6 @@ spec:
       serviceAccountName: ks-installer
       containers:
       - name: installer
-        image: kubesphere/ks-installer:v2.1.1
+        image: kubespheredev/ks-installer:dev-helm3
         imagePullPolicy: "Always"
 
